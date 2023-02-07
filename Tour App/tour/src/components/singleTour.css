@@ -1,0 +1,66 @@
+.SingleTour{
+    width: 400px;
+    margin: 22px;
+    box-shadow: 2px 2px 2px 2px rgb(159, 134, 159);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.tourImage{
+    height: 200px;
+    width: 400px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+.subHeadingTextContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.tourTitle{
+    color: rgb(108, 14, 108);
+}
+
+.tourCost{
+    color: rgb(60, 4, 60);
+}
+
+hr{
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.infoTextContainer{
+    color: rgb(89, 80, 80);
+    margin-bottom: 12px;
+    height: 80px;
+    overflow-y: scroll;
+}
+
+.notInterested, .clearAll{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    padding: 8px 50px;
+    border: none;
+    color: purple;
+    font-size: 16px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, rgb(159, 134, 159), rgb(122, 104, 122));
+    cursor: pointer;
+}
+
+.notInterested:hover, .clearAll:hover{
+    background-image: linear-gradient(to right,  rgb(122, 104, 122), rgb(159, 134, 159));
+}
+
+.readMoreSpan{
+    color: blue;
+    border-bottom: 1px solid blue;
+    margin-left: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
